@@ -23,6 +23,8 @@ int main()
 			{
              for(k=1;k<=l;k++)
 			{
+		     if(i+k<=n&&i-k>=0)
+		     {
                  if(a[i][j+k]==0)
                  {
                      count++;
@@ -38,6 +40,7 @@ int main()
                  }
                  else{}
                  }
+	     }
                  
 		}
 	}
